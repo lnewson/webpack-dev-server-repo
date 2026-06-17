@@ -11,6 +11,7 @@ function buildConfig(): Configuration {
 }
 
 function createServer() {
+  const config = buildConfig();
   const compiler = webpack(config);
   return new WebpackDevServer(config.devServer, compiler);
 }
