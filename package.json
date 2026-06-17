@@ -1,0 +1,14 @@
+{
+  "name": "webpack-dev-server-repo",
+  "version": "1.0.0",
+  "description": "A reproduction showing the breaking change in v5.2.3",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "5.9.3",
+    "webpack": "5.107.2",
+    "webpack-dev-server": "5.2.3"
+  }
+}
